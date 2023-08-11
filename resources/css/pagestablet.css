@@ -1,17 +1,21 @@
 @media screen and (min-width: 641px){
 
-    
+    nav {
+        display: inline-block;
+    }
+
     nav a:hover {
         font-weight: bold;
         font-size: 30px;
         text-shadow: #ffffff 0 0 10px
     }
 
-    h1 {
-        text-align: center;
-        margin-top: 500px;
-        font-size: 150px;
-        font-family: Arial, Helvetica, sans-serif;
+    nav li {
+        display: inline-block;
+    }
+
+    main h1 {
+        font-size: 50px;
     }
 
 }
