@@ -8,6 +8,9 @@ a {
     padding: 1em;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    transition-property: font-size;
+    transition-duration: 1s;
+    transition-delay: 0s;
 }
 
 a:link, a:visited {
@@ -16,6 +19,7 @@ a:link, a:visited {
 
 a:hover {
     font-weight: bold;
+    font-size: 50px;
 }
 
 nav {
