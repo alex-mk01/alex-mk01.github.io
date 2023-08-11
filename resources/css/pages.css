@@ -1,3 +1,6 @@
+@import url(pagesmobile.css);
+@import url(pagestablet.css);
+
 body {
     color: white;
     background-color: rgb(29, 29, 32);
@@ -13,11 +16,11 @@ a {
     transition-delay: 0s;
 }
 
-a:link, a:visited {
+nav a:link, nav a:visited {
     color: white;
 }
 
-a:hover {
+nav a:hover {
     font-weight: bold;
     font-size: 50px;
     text-shadow: #ffffff 0 0 10px
@@ -39,4 +42,30 @@ main {
 
 h1 {
     font-size: 62px;
+}
+
+/*For Desktop Usage*/
+@media screen and (min-width: 961px)  {
+
+    nav a:hover {
+        font-weight: bold;
+        font-size: 45px;
+        text-shadow: #ffffff 0 0 10px
+    }
+
+    nav {
+        float: right; /*This floats the nav elements to the right where it should be*/
+        margin-top:  -15em; /*This moves the nav elements above where it should be*/
+    
+        
+
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 500px;
+        font-size: 150px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
 }
