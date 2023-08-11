@@ -11,9 +11,10 @@ a {
     color: white;
 }
 
-a:visited {
+a:link, a:visited {
     color: white;
 }
+
 
 nav {
     text-align: center;
