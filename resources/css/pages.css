@@ -1,6 +1,14 @@
 @import url(pagestablet.css);
 @import url(pagesmobile.css);
 
+/*Universal Styles*/
+
+html {
+    background-color: rgb(29, 29, 32);
+}
+
+/*Main Content*/
+
 body {
     color: white;
     background-color: rgb(29, 29, 32);
@@ -33,6 +41,9 @@ nav ul li {
     list-style-type: none;
 }
 
+main {
+    margin: 0 150px;
+}
 
 
 

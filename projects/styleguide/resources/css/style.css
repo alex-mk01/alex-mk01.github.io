@@ -1,0 +1,70 @@
+body {
+    background-color: #ffebcd;
+}
+
+header {
+    background-color: hsl(160, 100%, 75%);
+    padding: 0.2em;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    width: auto;
+    position: relative;
+}
+
+main {
+    margin: 0 150px;
+    text-align: left;
+    
+}
+
+.title {
+    text-align: center;
+    background-color: rgb(0, 38, 255);
+    padding: 0.5em;
+    color: white;
+    font-size: 25px;
+}
+
+h2 .title {
+    font-weight: bold;
+    font-family: "Trirong", serif;
+
+}
+
+h3 {
+    font-size: 14px;
+}
+
+.cbubble, .tbubble {
+    border: solid black 1px;
+    padding: 25px;
+    width: 30%;
+    border-radius: 15px;
+}
+
+.tbubble {
+    background-color: white;
+}
+
+#blue {
+    background-color: blue;
+    color: white;
+}
+
+#aquamarine {
+    background-color:hsl(160, 100%, 75%);
+}
+
+#blanched {
+    background-color: blanchedalmond;
+}
+
+#btrirong {
+    font-weight: bold !important; 
+}
+
+#cursive {
+    font-family: cursive;
+}
+
