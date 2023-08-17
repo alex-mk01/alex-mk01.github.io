@@ -19,6 +19,7 @@ nav {
     font-size: 22px;
 }
 
+
 nav ul {
     text-align: right;
     float: right;
@@ -44,6 +45,7 @@ a, a:active, a:link {
 
 main {
     text-align: center;
+    justify-items: center;
     justify-content: center;
 }
 
@@ -69,7 +71,13 @@ main {
 
 .tea {
     width: 1000px;
-    
+    justify-items: center;
+    justify-content: center;
+}
+
+.teatext {
+    justify-items: center;
+    justify-content: center;
 }
 
 .tea img {
