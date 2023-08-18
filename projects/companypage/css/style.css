@@ -1,0 +1,227 @@
+/*Universal CSS*/
+
+* {
+    box-sizing: border-box;
+    scroll-padding-top: 5.5rem;
+}
+
+html {
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+  
+h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+  
+h4 {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+  
+p {
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
+
+.label {
+    width: 18.75rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    line-height: 1.2;
+    color: white;
+}
+
+
+.content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(134, 30, 30, 0.6);
+}
+  
+.image-container {
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*Nav Bar*/
+
+nav {
+    justify-content: center;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1.25em;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+nav h1 {
+    float: left;
+    padding-left: 1em;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 3em;
+}
+
+
+/*Body*/
+
+.title {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title h4 {
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+#titlehead {
+    font-size: 4em;
+    padding: 1.5em 0em 0em 0em;
+}
+
+/*Mission*/
+
+#mission {
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+
+/*PCs*/
+
+#pcs .content {
+    width: 100%;
+    height: auto;
+    padding: 0rem 1rem;
+    background-color: #000000;
+    background-attachment: fixed;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+
+#pcs .content .product {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(215deg, rgba(231, 60, 9, 0.8), rgba(89, 39, 255, 0));
+    padding: 1.5rem;
+    margin: 1rem;
+    align-content: center;
+    justify-content: center;
+}
+
+#pcs .content .product .pic {
+    justify-content: center;
+    align-items: center;
+}
+
+
+#pcs .content .product .label h4 {
+    font-family: "Enriqueta", serif;
+    text-transform: capitalize;
+}
+
+/*Team*/
+
+#team .content {
+    width: 100%;
+    height: auto;
+    padding: 3rem 1.5rem;
+    background-color: #000000;
+    background-attachment: fixed;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-between;
+    width: 100%;
+    background-size: cover;
+}
+
+#team .content .member {
+    margin: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: default;
+    align-items: default;
+    width: 13.75rem;
+}
+
+#team .content .member .portrait {
+    display: flex;
+    flex-direction: default;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 13.75rem;
+    background-image: linear-gradient(rgba(255,255,255, 0.8), rgba(0, 0, 0, 0.8) );
+    margin: 1rem 1rem 0 2.5rem;
+}
+
+
+#team .content .member .label h3 {
+    font-family: "Enriqueta", serif;
+    line-height: 2;
+}
+
+#team .content .member .label p {
+    font-family: "Kanit", sans-serif;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+
+/*Contact*/
+
+#contact {
+    text-align: center;
+}
+
+/*Footer*/
+
+footer {
+    text-align: center;
+}

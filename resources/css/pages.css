@@ -7,26 +7,7 @@ html {
     background-color: rgb(29, 29, 32);
 }
 
-/*Main Content*/
-
-body {
-    color: white;
-    background-color: rgb(29, 29, 32);
-}
-
-a {
-    text-decoration: none;
-    padding: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    transition-property: font-size;
-    transition-duration: 1s;
-    transition-delay: 0s;
-}
-
-a:link, a:visited {
-    color: white;
-}
+/*Nav Bar*/
 
 nav {
     text-align: center;
@@ -41,12 +22,37 @@ nav ul li {
     list-style-type: none;
 }
 
+/*Main Content*/
+
+body {
+    color: white;
+    background-color: rgb(29, 29, 32);
+}
+
+nav a {
+    text-decoration: none;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    transition-property: font-size;
+    transition-duration: 1s;
+    transition-delay: 0s;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
+
 main {
     margin: 0 150px;
     justify-content: center;
 }
 
-
+main p a {
+    text-decoration: none;
+    font
+}
 
 /*For Desktop Usage*/
 @media screen and (min-width: 961px)  {
