@@ -54,6 +54,11 @@ section {
     text-shadow: #ffffff 2px 2px 50px;
 }
 
+#info {
+    color: #ffffff;
+    display: flex;
+}
+
 /*Classes*/
 .title {
     width: 100%;
